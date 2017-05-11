@@ -1,0 +1,211 @@
+iframe {
+    height: 368px;
+}
+.sidebar {
+    background-color: rgb(72,84,101);
+    width: 100px;
+    position: absolute;
+    float: left;
+}
+.link {
+    padding: 10px 0;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    margin: 20px 0;
+    margin-left: -10px;
+    border-radius: 5px;
+}
+.logo img {
+    width: 27px;
+    height: 25px;
+    margin: 8px;
+}
+body {
+    background-color: rgb(246,246,247);
+}
+ul,li {
+    list-style: none;
+}
+.navbar-default {
+    background-color: white;
+    min-height: 80px;
+}
+.glyphicon {
+    color: white;
+}
+.glyphicon-search {
+    color: black;
+}
+.glyphicon-home {
+    color: rgb(112,203,230);
+}
+.page-wrapper, nav {
+    margin: 0 15px;
+    position: inherit;
+    margin: 0 0 0 100px;
+    padding: 0 30px;
+    border-left: 1px solid #e7e7e7;
+}
+.analysis {
+    height: 80px;
+    vertical-align: middle;
+    font-size: 24px;
+    line-height: 80px;
+}
+.search input {
+    float: right;
+    border-radius: 15px;
+    box-shadow: none;
+    border: 1px solid #bbb;
+    padding: 5px 25px;
+}
+.search {
+    padding: 27px;
+}
+.glyphicon-search {
+    position: absolute;
+    right: 37%;
+    top: 43%;
+    padding-right: 5px;
+}
+.header .user span {
+    font-size: 24px;
+}
+select.form-control {
+    border: 1px solid #d2d2d2;
+}
+.form-group {
+    margin: 0;
+}
+.user-result hr {
+    margin-top: 70px;
+    border-color: #ccc;
+}
+.search-setting span {
+    color: #666;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.search-setting {
+    display: block;
+    width: 36px;
+    height: 33px;
+    margin-top: 5px;
+    padding-top: 4px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group div[class*=col-] {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.user-result [class*=col-] {
+    padding: 4px;
+}
+.user-result img {
+    width: 65px;
+    height: 65px;
+}
+.user-result [class*=profile] {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.sub-profile {
+    width: 21%;
+}
+.place, .views {
+    font-size: 13px;
+    color: #ccc;
+}
+.name, .sites .heading, .severe, .rating {
+    font-weight: 600;
+}
+.sub-profile .details {
+    margin: 11px auto;
+}
+.sub-profile {
+    top: 61px;
+}
+.user-result .sub-profile {
+    padding: 25px 0;
+}
+.user-result .main-profile {
+    padding: 10px;
+}
+.main-profile .name {
+    font-size: 16px;
+}
+.main-profile .desc {
+    font-size: 12px;
+}
+.sites {
+    padding: 10px 0;
+}
+.severe {
+    color: #800900;
+}
+.threat {
+    border-top: 1px solid #ccc;
+    padding: 12px 0 6px;
+    margin-top: 12px;
+}
+.severe::before {
+    width: 10px;
+    height: 10px;
+    color: #800900;
+    border: 1px solid #800900;
+    border-radius: 3px;
+}
+table {
+    font-size: 12px;
+}
+.theader {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e1e1e1;
+    height: 50px;
+    margin-top: 10px;
+    padding: 0 5px;
+    line-height: 50px;
+}
+.theader .glyphicon {
+    color: #c2c2c2;
+}
+.comment-count .count {
+    padding-left: 20px;
+    font-size: 28px;
+}
+.comment-count .heading {
+    padding: 15px 0 15px 20px;
+}
+.comment-count {
+    background: #fff;
+    margin-top: 10px;
+    height: 100px;
+}
+.table-header {
+    height: 40px;
+}
+.sentiment-bar {
+    background-color: #ececec;
+    padding: 20px 15px;
+}
+.sentiment-bar .negative {
+    width: 100%;
+    background-color: rgb(179,19,7);
+    height: 40px;
+}
+.sentiment-bar .positive {
+    width: 80%;
+    background-color: rgb(74,144,226);
+    height: 40px;
+}
+.sentiment-bar .neutral {
+    width: 30%;
+    background-color: rgb(135,189,76);
+    height: 40px;
+}
